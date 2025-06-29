@@ -18,7 +18,7 @@ const app = express();
 // app.use(cors());
 app.use(
   cors({
-    origin: "https://famous-salmiakki-94083b.netlify.app", // ✅ your frontend URL
+    origin: "https://spontaneous-e-voting-912986.netlify.app", // ✅ your frontend URL
     credentials: true, // ✅ required for cookies
   })
 );
