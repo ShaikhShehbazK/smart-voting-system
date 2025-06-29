@@ -18,7 +18,7 @@ const app = express();
 // app.use(cors());
 app.use(
   cors({
-    origin: "https://celebrated-gecko-18ccae.netlify.app", // ✅ your frontend URL
+    origin: "https://spectacular-kringle-5b25ac.netlify.app", // ✅ your frontend URL
     credentials: true, // ✅ required for cookies
   })
 );
