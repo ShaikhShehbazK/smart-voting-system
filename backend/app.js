@@ -90,7 +90,8 @@ app.use(
     cookie: {
       httpOnly: true,
       secure: false, // Set to true in production (HTTPS required)
-      sameSite: "lax", // Prevents cookie issues
+      sameSite: "none", // ✅ Allows cross-origin cookies (Netlify → Render)
+      maxAge: 24 * 60 * 60 * 1000, // 1 day
     },
   })
 );
