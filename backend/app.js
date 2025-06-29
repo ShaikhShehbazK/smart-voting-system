@@ -18,7 +18,7 @@ const app = express();
 // app.use(cors());
 app.use(
   cors({
-    origin: "http://localhost:5173", // ✅ your frontend URL
+    origin: "https://famous-salmiakki-94083b.netlify.app/", // ✅ your frontend URL
     credentials: true, // ✅ required for cookies
   })
 );
